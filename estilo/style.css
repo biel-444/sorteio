@@ -1,0 +1,59 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    overflow: hidden;
+    background-image: url(imagens/fundo.jpg) ;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 400px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.083);
+    background-color: rgba(129, 126, 206, 0.117);
+}
+.page{
+    background-color: rgba(53, 72, 68, 0.33);
+    color: white;
+    font-size: 1.8em;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(56, 57, 56, 0.503);
+}
+#topo{
+    margin-top: 50px;
+    text-align: center;
+} 
+#button{
+    background-color: transparent;
+    border: 0;
+    width: 200px;
+    height: 90px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#button:hover{
+    background-color: rgba(65, 108, 108, 0.245);
+    box-shadow: inset  1px 4px  16px 8px rgba(0, 0, 0, 0.101)
+}
