@@ -7,7 +7,7 @@ body{
     width: 100vw;
     height: 100vh;
     margin: 0%;
-    overflow: hidden;
+    
     background-image: url(imagens/fundo.jpg) ;
     background-size:cover;
     background-attachment: fixed;
@@ -29,18 +29,19 @@ section{
     width: 400px;
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.083);
-    background-color: rgba(129, 126, 206, 0.117);
+    background-color: rgba(128, 128, 128, 0.33);
 }
 .page{
     background-color: rgba(53, 72, 68, 0.33);
     color: white;
     font-size: 1.8em;
     border-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(56, 57, 56, 0.503);
+    box-shadow: 1px 1px 10px rgba(66, 81, 66, 0.503);
 }
 #topo{
     margin-top: 50px;
     text-align: center;
+    text-shadow: 1px 1px 9px rgba(2, 87, 12, 0.592);
 } 
 #button{
     background-color: transparent;
@@ -56,4 +57,23 @@ section{
 #button:hover{
     background-color: rgba(65, 108, 108, 0.245);
     box-shadow: inset  1px 4px  16px 8px rgba(0, 0, 0, 0.101)
+}
+
+footer{
+    background-color: rgb(69, 69, 69);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer>p{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+footer a:visited{
+    color: rgb(255, 255, 255);
+}
+footer a:hover{
+    color: rgba(150, 169, 242, 0.653);
 }
