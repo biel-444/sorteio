@@ -80,3 +80,16 @@ footer a:visited{
 footer a:hover{
     color: rgba(150, 169, 242, 0.653);
 }
+
+img {
+    margin: auto;
+    display: block;
+    text-align: left;
+    height: 120px;
+    width: 120;
+}
+p{
+    margin: auto;
+    display: block;
+    text-align: right;
+}
