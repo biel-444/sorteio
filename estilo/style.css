@@ -58,7 +58,6 @@ section{
     background-color: rgba(65, 108, 108, 0.245);
     box-shadow: inset  1px 4px  16px 8px rgba(0, 0, 0, 0.101)
 }
-
 footer{
     background-color: rgb(69, 69, 69);
     position: fixed;
@@ -82,11 +81,10 @@ footer a:hover{
 }
 
 img {
-    margin: auto;
     display: block;
-    text-align: left;
     height: 120px;
     width: 120px;
+    border: transparent;
 }
 p{
     margin: auto;
