@@ -34,9 +34,16 @@ section{
 .page{
     background-color: rgba(53, 72, 68, 0.33);
     color: white;
-    font-size: 1.8em;
+    font-size: 1.4em;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(66, 81, 66, 0.503);
+    text-indent: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.882);
+
+
 }
 #topo{
     margin-top: 50px;
@@ -50,15 +57,15 @@ section{
     height: 90px;
     border-radius: 10px;
     color: white;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 9px rgba(2, 87, 12, 0.592);
 }
 #button:hover{
     background-color: rgba(65, 108, 108, 0.245);
     box-shadow: inset  1px 4px  16px 8px rgba(0, 0, 0, 0.101)
 }
-
 footer{
     background-color: rgb(69, 69, 69);
     position: fixed;
@@ -84,9 +91,9 @@ footer a:hover{
 img {
     margin-left: 1px;
     display: block;
-    text-align: left;
     height: 120px;
     width: 120px;
+    border: transparent;
 }
 p{
     margin: auto;
