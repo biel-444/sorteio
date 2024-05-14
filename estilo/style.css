@@ -82,7 +82,7 @@ footer a:hover{
 }
 
 img {
-    margin: auto;
+    margin-left: 1px;
     display: block;
     text-align: left;
     height: 120px;
